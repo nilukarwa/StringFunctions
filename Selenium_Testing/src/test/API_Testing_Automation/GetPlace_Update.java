@@ -58,12 +58,14 @@ public class GetPlace_Update {
                 .then().log().all().assertThat().statusCode(200)
                 .extract().response().asString();
 
+        System.out.println("The Response Body: " +actualAddress);
+
         JsonPath add = new JsonPath(actualAddress);
-        String expectedAddress=add.getString("Address");
+        String expectedAddress=add.getString("address");
 
         System.out.println("The Expected Address: " +expectedAddress);
 
-        Assert.assertEquals(newUpdateAddres,expectedAddress);
+        Assert.assertEquals(expectedAddress,newUpdateAddres);
         //Cucumber JUnit, TestNG
     }
 }
