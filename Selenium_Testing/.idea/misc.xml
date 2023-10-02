@@ -11,4 +11,11 @@
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
+  <component name="jsonEditor">
+    <option name="stateMap">
+      <map>
+        <entry key="Selenium_Testing" value="{&quot;data&quot;:[{&quot;customerName&quot;:&quot;Appium&quot;,&quot;purchaseDate&quot;:&quot;2023-09-22&quot;,&quot;location&quot;:&quot;Asia&quot;,&quot;amount&quot;:99},{&quot;customerName&quot;:&quot;WebServices&quot;,&quot;purchaseDate&quot;:&quot;2023-09-22&quot;,&quot;location&quot;:&quot;Asia&quot;,&quot;amount&quot;:21},{&quot;customerName&quot;:&quot;Jmeter&quot;,&quot;purchaseDate&quot;:&quot;2023-09-22&quot;,&quot;location&quot;:&quot;Asia&quot;,&quot;amount&quot;:76}]}" />
+      </map>
+    </option>
+  </component>
 </project>

@@ -3,15 +3,15 @@ import io.restassured.RestAssured;
 import static io.restassured.RestAssured.given;
 
 public class AddPlace_Fail {
-    public static void main(String [] a){
+    public static void main(String[] a) {
         //Validate if add place API is working as Expected
         //Given - All input details
         //When - Submit the API
         //Then - Validate the Response
 
-        RestAssured.baseURI= "https://rahulshettyacademy.com";
-        given().log().all().queryParam("key","qaclick123").
-                header("Content-Type","application/json")
+        RestAssured.baseURI = "https://rahulshettyacademy.com";
+        given().log().all().queryParam("key", "qaclick123").
+                header("Content-Type", "application/json")
                 .body("{\n" +
                         "  \"location\": {\n" +
                         "    \"lat\": -38.383494,\n" +
